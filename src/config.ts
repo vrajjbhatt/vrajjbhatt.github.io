@@ -8,36 +8,35 @@ export const siteConfig = {
   github: "https://github.com/vrajjbhatt",
   resume: "https://github.com/vrajjbhatt/vrajjbhatt.github.io/blob/main/Vraj_DevOps_Resume.pdf",
 
-  about: `Engineer with 4.5+ years of experience building and optimizing cloud-native systems 
+  // ✅ Required by index.astro
+  description: `Engineer with 4.5+ years of experience building and optimizing cloud-native systems 
   through automation, monitoring, and scalable architecture. Skilled in Kubernetes, 
   multi-cloud environments, and DevOps practices with a proven record of improving reliability, 
   reducing costs, and enabling 99.99% uptime for production systems.`,
 
-  // ✅ Navigation links (safe default)
-  navLinks: [
-    { name: "About", url: "#about" },
-    { name: "Skills", url: "#skills" },
-    { name: "Projects", url: "#projects" },
-    { name: "Experience", url: "#experience" },
-    { name: "Education", url: "#education" },
-    { name: "Certifications", url: "#certifications" },
-    { name: "Contact", url: "#contact" }
+  // ✅ Projects.astro will map over this
+  projects: [
+    {
+      name: "Build, Automate, and Scale on Cloud",
+      description: "End-to-end DevOps automation (CI/CD, IaC, scaling, monitoring).",
+      tech: ["AWS", "Terraform", "Ansible", "CloudFormation", "CI/CD"],
+      link: "https://github.com/vrajjbhatt"
+    },
+    {
+      name: "CoviDist Smart Band",
+      description: "IoT wristband to detect distancing violations (Springer publication).",
+      tech: ["IoT", "Arduino", "C++"],
+      link: "https://link.springer.com/chapter/10.1007/978-981-19-8963-6_7"
+    },
+    {
+      name: "Organization Portfolio Info System",
+      description: "Next.js + AWS app providing ESG-based company insights.",
+      tech: ["Next.js", "Python", "PostgreSQL", "AWS Amplify", "AWS Beanstalk"],
+      link: "https://github.com/vrajjbhatt"
+    }
   ],
 
-  // ✅ Social links (safe default)
-  socials: [
-    { name: "GitHub", url: "https://github.com/vrajjbhatt" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/vraj-bhatt-090835133/" }
-  ],
-
-  // ✅ Skills
-  skills: [
-    "AWS", "Kubernetes", "Terraform", "Ansible", "Jenkins", "Azure DevOps",
-    "ELK Stack", "Prometheus", "Grafana", "Docker", "Linux",
-    "Python", "Go", "Rust", "Node.js", "React", "CI/CD", "Monitoring", "Cost Optimization"
-  ],
-
-  // ✅ Experience
+  // ✅ Experience.astro will map over this
   experience: [
     {
       role: "DevOps Engineer",
@@ -86,29 +85,7 @@ export const siteConfig = {
     }
   ],
 
-  // ✅ Projects
-  projects: [
-    {
-      name: "Build, Automate, and Scale on Cloud",
-      description: "End-to-end DevOps automation (CI/CD, IaC, scaling, monitoring).",
-      tech: ["AWS", "Terraform", "Ansible", "CloudFormation", "CI/CD"],
-      link: "https://github.com/vrajjbhatt"
-    },
-    {
-      name: "CoviDist Smart Band",
-      description: "IoT wristband to detect distancing violations (Springer publication).",
-      tech: ["IoT", "Arduino", "C++"],
-      link: "https://link.springer.com/chapter/10.1007/978-981-19-8963-6_7"
-    },
-    {
-      name: "Organization Portfolio Info System",
-      description: "Next.js + AWS app providing ESG-based company insights.",
-      tech: ["Next.js", "Python", "PostgreSQL", "AWS Amplify", "AWS Beanstalk"],
-      link: "https://github.com/vrajjbhatt"
-    }
-  ],
-
-  // ✅ Education
+  // ✅ Education.astro will map over this
   education: [
     {
       degree: "MCA - Computer Science",
@@ -120,15 +97,5 @@ export const siteConfig = {
       school: "Kadi Sarva Vishwavidyalaya",
       grade: "CGPA: 9.37"
     }
-  ],
-
-  // ✅ Certifications
-  certifications: [
-    "AWS Solutions Architect - Associate",
-    "Certified Kubernetes Application Developer (CKAD)",
-    "Kubernetes & Cloud Native Associate (KCNA)",
-    "Gremlin Chaos Engineering",
-    "Neo4j Certified Professional",
-    "Red Hat System Administration I & II"
   ]
 };
