@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -47,6 +47,15 @@ section {
 h2 {
   color: #2563eb;
   margin-bottom: 1rem;
+}
+
+.mission-statement {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  border-left: 4px solid #2563eb;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
 }
 
 .skills span, .tags span {
