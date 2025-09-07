@@ -16,24 +16,24 @@ export const siteConfig = {
 
   // ✅ Projects.astro will map over this
   projects: [
-    {
-      name: "Build, Automate, and Scale on Cloud",
-      description: "End-to-end DevOps automation (CI/CD, IaC, scaling, monitoring).",
-      tech: ["AWS", "Terraform", "Ansible", "CloudFormation", "CI/CD"],
-      link: "https://github.com/vrajjbhatt"
-    },
-    {
-      name: "CoviDist Smart Band",
-      description: "IoT wristband to detect distancing violations (Springer publication).",
-      tech: ["IoT", "Arduino", "C++"],
-      link: "https://link.springer.com/chapter/10.1007/978-981-19-8963-6_7"
-    },
-    {
-      name: "Organization Portfolio Info System",
-      description: "Next.js + AWS app providing ESG-based company insights.",
-      tech: ["Next.js", "Python", "PostgreSQL", "AWS Amplify", "AWS Beanstalk"],
-      link: "https://github.com/vrajjbhatt"
-    }
+  {
+    name: "Build, Automate, and Scale on Cloud",
+    description: "End-to-end DevOps automation (CI/CD, IaC, scaling, monitoring).",
+    link: "https://github.com/vrajjbhatt",
+    skills: ["AWS", "Terraform", "Ansible", "CloudFormation", "CI/CD"]
+  },
+  {
+    name: "CoviDist Smart Band",
+    description: "IoT wristband to detect distancing violations (Springer publication).",
+    link: "https://link.springer.com/chapter/10.1007/978-981-19-8963-6_7",
+    skills: ["IoT", "Arduino", "C++"]
+  },
+  {
+    name: "Organization Portfolio Info System",
+    description: "Next.js + AWS app providing ESG-based company insights.",
+    link: "https://github.com/vrajjbhatt",
+    skills: ["Next.js", "Python", "PostgreSQL", "AWS Amplify", "AWS Beanstalk"]
+  }
   ],
 
   // ✅ Experience.astro will map over this
