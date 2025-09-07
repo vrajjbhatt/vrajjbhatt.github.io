@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9fafb;
+  color: #333;
+}
+
+header, footer {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 0.5rem 0 1rem;
+  font-weight: 400;
+}
+
+.buttons .button {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 10px 16px;
+  background: white;
+  color: #2563eb;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.buttons .button:hover {
+  background: #e5e7eb;
+}
+
+section {
+  padding: 2rem 10%;
+}
+
+h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.skills span, .tags span {
+  display: inline-block;
+  background: #e5e7eb;
+  margin: 4px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 2rem;
+}
