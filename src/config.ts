@@ -1,4 +1,3 @@
-// siteConfig.ts
 export const siteConfig = {
   name: "Vraj Bhatt",
   title: "DevOps | SRE | Platform Engineer",
@@ -7,16 +6,17 @@ export const siteConfig = {
   location: "New Jersey, United States",
   linkedin: "https://www.linkedin.com/in/vraj-bhatt-090835133/",
   github: "https://github.com/vrajjbhatt",
-  resume: "https://github.com/vrajjbhatt/vrajjbhatt.github.io/blob/master/Vraj_DevOps_Resume.pdf",
+  resume: "https://github.com/vrajjbhatt/vrajjbhatt.github.io/blob/main/Vraj_DevOps_Resume.pdf",
 
-  about: `Engineer with 4.5+ years of experience building and optimizing cloud-native systems through automation, 
-  monitoring, and scalable architecture. Skilled in Kubernetes, multi-cloud environments, and DevOps practices with 
-  a proven record of improving reliability, reducing costs, and enabling 99.99% uptime for production systems.`,
+  about: `Engineer with 4.5+ years of experience building and optimizing cloud-native systems 
+  through automation, monitoring, and scalable architecture. Skilled in Kubernetes, 
+  multi-cloud environments, and DevOps practices with a proven record of improving reliability, 
+  reducing costs, and enabling 99.99% uptime for production systems.`,
 
   skills: [
     "AWS", "Kubernetes", "Terraform", "Ansible", "Jenkins", "Azure DevOps",
-    "ELK", "Prometheus", "Grafana", "Python", "Go", "Rust", "Node.js",
-    "React", "CI/CD", "Monitoring", "Cost Optimization"
+    "ELK Stack", "Prometheus", "Grafana", "Docker", "Linux",
+    "Python", "Go", "Rust", "Node.js", "React", "CI/CD", "Monitoring", "Cost Optimization"
   ],
 
   experience: [
