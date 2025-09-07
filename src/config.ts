@@ -13,12 +13,31 @@ export const siteConfig = {
   multi-cloud environments, and DevOps practices with a proven record of improving reliability, 
   reducing costs, and enabling 99.99% uptime for production systems.`,
 
+  // ✅ Navigation links (safe default)
+  navLinks: [
+    { name: "About", url: "#about" },
+    { name: "Skills", url: "#skills" },
+    { name: "Projects", url: "#projects" },
+    { name: "Experience", url: "#experience" },
+    { name: "Education", url: "#education" },
+    { name: "Certifications", url: "#certifications" },
+    { name: "Contact", url: "#contact" }
+  ],
+
+  // ✅ Social links (safe default)
+  socials: [
+    { name: "GitHub", url: "https://github.com/vrajjbhatt" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/vraj-bhatt-090835133/" }
+  ],
+
+  // ✅ Skills
   skills: [
     "AWS", "Kubernetes", "Terraform", "Ansible", "Jenkins", "Azure DevOps",
     "ELK Stack", "Prometheus", "Grafana", "Docker", "Linux",
     "Python", "Go", "Rust", "Node.js", "React", "CI/CD", "Monitoring", "Cost Optimization"
   ],
 
+  // ✅ Experience
   experience: [
     {
       role: "DevOps Engineer",
@@ -67,6 +86,7 @@ export const siteConfig = {
     }
   ],
 
+  // ✅ Projects
   projects: [
     {
       name: "Build, Automate, and Scale on Cloud",
@@ -88,6 +108,7 @@ export const siteConfig = {
     }
   ],
 
+  // ✅ Education
   education: [
     {
       degree: "MCA - Computer Science",
@@ -101,6 +122,7 @@ export const siteConfig = {
     }
   ],
 
+  // ✅ Certifications
   certifications: [
     "AWS Solutions Architect - Associate",
     "Certified Kubernetes Application Developer (CKAD)",
