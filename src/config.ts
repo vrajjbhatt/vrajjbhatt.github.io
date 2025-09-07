@@ -1,5 +1,5 @@
-// config.ts
-export const config = {
+// siteConfig.ts
+export const siteConfig = {
   name: "Vraj Bhatt",
   title: "DevOps | SRE | Platform Engineer",
   email: "vrajjbhatt@gmail.com",
